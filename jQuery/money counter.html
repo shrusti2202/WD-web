@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function a() {
+            var number1 = document.getElementById("one-1").value;
+            var number_1 = document.getElementById("one").innerHTML = number_1 = (2000 * number1)
+    
+            var number2 = document.getElementById("one-2").value;
+            var number_2 = document.getElementById("two").innerHTML = number_2 = (1000 * number2) 
+            
+            var number3 = document.getElementById("one-3").value;
+            var number_3 = document.getElementById("three").innerHTML = number_3 = (500 * number3)
+    
+            var number4 = document.getElementById("one-4").value;
+            var number_4 = document.getElementById("four").innerHTML = number_4 = (200 * number4)
+            
+            var number5= document.getElementById("one-5").value;
+            var number_5 = document.getElementById("five").innerHTML = number_5 = (100* number5)
+    
+            var number6 = document.getElementById("one-6").value;
+            var number_6 = document.getElementById("six").innerHTML = number_6 = (50* number6)
+        
+            var number7 = document.getElementById("one-7").value;
+            var number_7 = document.getElementById("seven").innerHTML = number_7 = (20 * number7)
+    
+            var number8 = document.getElementById("one-8").value;
+            var number_8 = document.getElementById("eight").innerHTML = number_8 = (10 * number8)
+    
+            var number9 = document.getElementById("one-9").value;
+            var number_9 = document.getElementById("nine").innerHTML = number_9 = (5 * number9)
+    
+          
+    
+            var n3 = document.getElementById("th1").innerHTML = number_1 + number_2 + number_3 + number_4 + number_5 + number_6 + number_7 + number_8 + number_9
+        }
+    </script>
+    <style>
+        div {
+            height: 500px;
+            width: 300px;
+            background-color: rgb(231, 228, 228);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <div>
+            <b>Money notes</b> Denominations in main unit of currency e.g., dollar, pound, rupee
+            <p>2000 x <input type="number" placeholder="0" onkeyup="a()" id="one-1"> = <span id="one">0</span></p>
+            <p>1000 x <input type="number" placeholder="0" onkeyup="a()" id="one-2"> = <span id="two">0</span></p>
+            <p>500 x <input type="number" placeholder="0" onkeydown="a()" id="one-3"> = <span id="three">0</span></p>
+            <p>200 x <input type="number" placeholder="0" onkeydown="a()"id="one-4"> = <span id="four">0</span></p>
+            <p>100 x <input type="number" placeholder="0" onkeydown="a()"id="one-5"> = <span id="five">0</span></p>
+            <p>50 x <input type="number" placeholder="0" onkeydown="a()"id="one-6"> = <span id="six">0</span></p>
+            <p>20 x <input type="number" placeholder="0" onkeydown="a()"id="one-7"> = <span id="seven">0</span></p>
+            <p>10 x <input type="number" placeholder="0" onkeydown="a()"id="one-8"> = <span id="eight">0</span></p>
+            <p>5 x <input type="number" placeholder="0" onkeydown="a()"id="one-9"> = <span id="nine">0</span></p>
+          
+            <P id="th1"> 0</P>
+        </div>
+    </table>
+
+</body>
+
+</html>
